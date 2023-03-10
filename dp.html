@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding: 1%;
+            background-image: url('https://media.wired.co.uk/photos/606d9a3ba876dd2203a639aa/4:3/w_2664,h_1998,c_limit/wired-uk-google-watching.jpg');
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .search-bar{
+            width: 60%;
+            max-height: 700px;
+            background: rgba(255, 255, 255, 0.904);
+            display: flex;
+            align-items: center;
+            border-radius: 60px;
+            padding: 10px 20px;
+            backdrop-filter: blur(4px) saturate(180%);
+            text-size-adjust: 20px;
+        }
+        .search-bar input{
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 24px 20px;
+            font-size: 10px;
+            color: rgb(123, 106, 237);
+            font-size: 20px;
+        }
+        ::placeholder{
+           color: #3909f8; 
+        }
+
+        .search-bar button img{
+            width: 40px;
+        }
+        .search-bar button{
+            border: 0;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+    </style> 
+    <div class="container" > 
+        <form action="https://www.google.com/search"  method="get" class="search-bar">
+            <input type="text" placeholder="search anything" name="q">
+            <button type="submit"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlCE0UgD2gaOQo-jEQIgKyNP5SgPxfEIubJuS2DQ-b9YBtMo8jVfLtZLqlX9hItwl9Ro8&usqp=CAU" ></button>
+        </form>  
+    </div>
+</body>
+</html>
+
+
+
+<span class="left">
+    <img class="avatar" src="image.jpg" />
+</span>
+<span class="right">
+Lorem ipsum dolor sit amet, nunc euismod nisl nam euismod, quis maecenas blandit ac, neque sed ut pulvinar, lectus sagittis sapien mauris per risus vel. Ligula sapien sed morbi cras tellus commodo. Rutrum mattis accumsan, hac sed praesent, neque tortor neque, commodo mauris sagittis turpis, faucibus sed ultrices tempor interdum. Lobortis assumenda nisl, posuere cras sit risus egestas bibendum nec, magna in, sed mattis pharetra felis nulla vitae aptent, in semper et...
+</span>
